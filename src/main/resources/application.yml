@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/lvliao/config-repo
+          username: lv599937128@163.com
+          password: lv199512
+eureka:
+  client:
+    service-url:
+      default: http:localhost:8761/eureka/
