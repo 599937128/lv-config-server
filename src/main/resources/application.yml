@@ -7,7 +7,7 @@ spring:
         git:
           uri: https://gitee.com/lvliao/config-repo
           username: lv599937128@163.com
-          password: lv199512
+          password: denglumima
 eureka:
   client:
     service-url:
