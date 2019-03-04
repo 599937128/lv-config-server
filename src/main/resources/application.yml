@@ -8,7 +8,17 @@ spring:
           uri: https://gitee.com/lvliao/config-repo
           username: lv599937128@163.com
           password: lv199512
+  rabbitmq:
+    host: 192.168.192.129
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
       default: http:localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
